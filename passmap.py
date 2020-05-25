@@ -306,18 +306,13 @@ touches = pd.read_csv('touches.csv')
 xgshots = pd.read_csv('shots with xG.csv')
 rawshots = pd.read_csv('raw shots.csv')
 
-xgshots.set_index("eventID", inplace=True)
-
-consumer_key ="cfntUtAO597m1XKmO4GTTI5NJ"
-consumer_secret ="i9oz3En3MsWsvjus91Wufhvtlzi86muGPmRQgZDcAl05tRpfuc"
-access_token ="1061824758734512129-HTKpKVnTgzEI6NO10Hvcp9SmFCNMfE"
-access_token_secret ="uXRkxfcciLqrK6tAytHXhuIBICgvh4MJJDz9NKi6Hi7UD"
+xgshots.set_index("eventID", inplace=True
 
 # authentication
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+# auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+# auth.set_access_token(access_token, access_token_secret)
 
-api = tweepy.API(auth)
+# api = tweepy.API(auth)
 
 games = [1351761]
 

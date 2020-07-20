@@ -1,2 +1,2 @@
 # Soccer-Analytics
-Some scripts I have written for working with soccer analytics data.
+Some scripts and visualizations I have written/created for working with soccer data.
